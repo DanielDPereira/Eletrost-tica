@@ -1,5 +1,6 @@
 body{
     width: 100vw;
+    height: 100vh;
     flex-direction: column;
     background-color: rgba(49, 59, 197, 0.144);
 }
