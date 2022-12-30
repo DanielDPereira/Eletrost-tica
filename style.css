@@ -13,3 +13,7 @@ input{
     border-radius: 5px;
     color: rgba(51, 41, 185, 0.781);
 }
+
+img{
+    border-radius: 10px;   
+}
