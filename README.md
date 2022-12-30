@@ -1,1 +1,1 @@
-# calculadora-de-eletrost-tica
+# calculadora de eletrostática
