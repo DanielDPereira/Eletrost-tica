@@ -7,14 +7,36 @@
     <title>Calculadora de eletrostática</title>
     <script src="math.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./header.css" />
+
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 </head>
 <body>
+
+    <div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div id="myNav" class="collapse navbar-collapse justify-content-end">
+    <ul class="navbar-nav ">
+    <li class="nav-item"><a href="https://github.com/DanielDPereira/calculadora-de-eletrostatica" class="nav-link active" target="_blank">Repositório</a></li>   
+    </ul>
+    </div>
+    </nav>
+    </div>
+
     <div style="text-align:center">
-        <h1 style="text-align:center">Bem vindo a calculadora de eletrostática</h1>
+        <br>
+        <h1 style="text-align:center">Calculadora de Eletrostática</h1>
 
 
-        <p class="p-explicação">Digite nos campos abaixos o valor de Q (carga 1), q (carga 2) e a distância (em metros) respectivamente, e depois clique no botão abaixo.</p>
+        <p class="p-explicação">Digite nos campos abaixos o valor de Q (carga 1), q (carga 2) e a distância (em metros) respectivamente<br>e clique no botão abaixo para calcular os valores.</p>
 
         <form id="entrada" action="">
             <input inputmode="numeric" id="Q" name="Q" placeholder="Digite Q">
@@ -24,20 +46,23 @@
             <br>
             <br>
 
-            <input type="submit" id="send" value="Calcular">
+            <input type="submit" id="send" value="  Calcular  ">
+
+            <br>
+            <br>
 
         </form>
 
     <h2>Resultados</h2>
 
-      <p id="Resultado V">V =</p>
-      <p id="Resultado E">E =</p>
-      <p id="Resultado Epe">Epe =</p>
-      <p id="Resultado Fele">Fele =</p>
+      <p id="Resultado V"><b>Potencial =</b></p>
+      <p id="Resultado E"><b>Campo elétrico =</b></p>
+      <p id="Resultado Epe"><b>Energia portencial elétrica =</b></p>
+      <p id="Resultado Fele"><b>Força elétrica =</b></p>
 
-      <img src="./imagens/Tabela de calculos1.jpeg" width="832" height="445"/>
+      <img src="./imagens/Tabela de calculos1.jpeg" width="832" height="445" alt="Lousa do professor Victor Abranches do Instituto Alpha Lumen"/>
       <hr>
-      <p id="p-Daniel">Site criado por Daniel Dias Pereira</p>
+      <p id="p-Daniel"></p>Criado por Daniel Dias Pereira</p>
       
       <br>
         

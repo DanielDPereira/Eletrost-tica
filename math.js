@@ -43,10 +43,10 @@ btn.addEventListener("click", function(e){
 
     //Retornando valores no HTML - início
 
-    document.getElementById("Resultado V").innerHTML ="V = "+V+" V";
-    document.getElementById("Resultado E").innerHTML ="E = "+E+" N/C";
-    document.getElementById("Resultado Epe").innerHTML ="Epe = "+Epe+" J";
-    document.getElementById("Resultado Fele").innerHTML ="Fele = "+Fele+" N";
+    document.getElementById("Resultado V").innerHTML ="<b>Potencial = </b>"+V+" V";
+    document.getElementById("Resultado E").innerHTML ="<b>Campo elétrico = </b>"+E+" N/C";
+    document.getElementById("Resultado Epe").innerHTML ="<b>Energia portencial elétrica = </b>"+Epe+" J";
+    document.getElementById("Resultado Fele").innerHTML ="<b>Força elétrica = </b>"+Fele+" N";
 
     //Retornando valores no HTML - fim
 
